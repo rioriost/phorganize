@@ -1,0 +1,57 @@
+"action.copyFiles" = "コピーする";
+"action.moveFiles" = "移動する";
+
+"phase.ready" = "待機中";
+"phase.readingMetadata" = "メタデータを読み取り中...";
+"phase.copyingFiles" = "ファイルをコピー中...";
+"phase.done" = "完了";
+"phase.failed" = "失敗";
+
+"progress.metadata" = "メタデータ: %d/%d";
+"progress.files" = "ファイル: %d/%d";
+
+"summary.planned" = "処理対象: %d";
+"summary.copied" = "コピー済み: %d";
+"summary.cloned" = "クローン済み: %d";
+"summary.moved" = "移動済み: %d";
+"summary.failed" = "失敗: %d";
+"summary.skippedUnsupported" = "未対応のためスキップ: %d";
+"summary.skippedMetadata" = "メタデータ不足でスキップ: %d";
+"summary.skippedExistingIdentical" = "既存同一のためスキップ: %d";
+
+"result.failedFiles" = "失敗したファイル:";
+"result.unsupportedFiles" = "未対応のファイル:";
+"result.metadataSkippedFiles" = "メタデータを読み取れずスキップしたファイル:";
+"result.existingIdenticalFiles" = "分類先に同一ファイルがあるためスキップしたファイル:";
+
+"source.title" = "分類元フォルダ";
+"source.subtitle" = "メディアフォルダをここにドラッグするか、選択してください。保存済みパスが存在しない場合も、実行するまでは許容されます。";
+"source.choose" = "分類元を選択";
+"source.summary" = "対象ファイル: %d（%@） / 未対応: %d / 合計: %d";
+"source.summaryEmpty" = "対象ファイルなし。合計: %d / 未対応: %d";
+"source.summaryMissing" = "保存済みの分類元パスが存在しません。";
+"source.summaryScanning" = "対象ファイルを確認中...";
+
+"destination.title" = "分類先フォルダ";
+"destination.subtitle" = "外付けSSDなどの保存先フォルダをここにドラッグするか、選択してください。";
+"destination.choose" = "分類先を選択";
+"destination.warningRecursiveNested" = "警告: サブフォルダ検索が有効で、分類先が分類元の内側にあります。既存の分類先ファイルも入力として拾われる可能性があります。";
+
+"rules.title" = "分類ルール";
+"rules.recursive" = "サブフォルダも検索";
+"rules.cameraFolder" = "カメラモデルのフォルダを作成";
+"rules.lensFolder" = "レンズモデルのフォルダを作成";
+"rules.renameByDate" = "メタデータ日時でリネーム";
+"rules.extensionCase" = "拡張子";
+"rules.timezone" = "タイムゾーン";
+"rules.timezoneOffset" = "タイムゾーン差: %d";
+"rules.mode" = "モード";
+"rules.metadataParallelism" = "メタデータ並列数: %d";
+"rules.copyParallelism" = "コピー並列数: %d";
+
+"extension.preserve" = "維持";
+"extension.lower" = "小文字";
+"extension.upper" = "大文字";
+
+"mode.copy" = "コピー";
+"mode.move" = "移動";

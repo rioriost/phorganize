@@ -1,0 +1,57 @@
+"action.copyFiles" = "Copy files";
+"action.moveFiles" = "Move files";
+
+"phase.ready" = "Ready";
+"phase.readingMetadata" = "Reading metadata...";
+"phase.copyingFiles" = "Copying files...";
+"phase.done" = "Done";
+"phase.failed" = "Failed";
+
+"progress.metadata" = "Metadata: %d/%d";
+"progress.files" = "Files: %d/%d";
+
+"summary.planned" = "Planned: %d";
+"summary.copied" = "Copied: %d";
+"summary.cloned" = "Cloned: %d";
+"summary.moved" = "Moved: %d";
+"summary.failed" = "Failed: %d";
+"summary.skippedUnsupported" = "Skipped unsupported: %d";
+"summary.skippedMetadata" = "Skipped metadata: %d";
+"summary.skippedExistingIdentical" = "Skipped already existing: %d";
+
+"result.failedFiles" = "Failed files:";
+"result.unsupportedFiles" = "Unsupported files:";
+"result.metadataSkippedFiles" = "Files skipped because metadata could not be read:";
+"result.existingIdenticalFiles" = "Files skipped because an identical target already exists:";
+
+"source.title" = "Source folder";
+"source.subtitle" = "Drag a media folder here, or choose one. A missing saved path is allowed until you run.";
+"source.choose" = "Choose Source";
+"source.summary" = "Target files: %d (%@) / Unsupported: %d / Total: %d";
+"source.summaryEmpty" = "No target files. Total: %d / Unsupported: %d";
+"source.summaryMissing" = "The saved source path does not exist.";
+"source.summaryScanning" = "Scanning target files...";
+
+"destination.title" = "Destination folder";
+"destination.subtitle" = "Drag the external SSD archive folder here, or choose one.";
+"destination.choose" = "Choose Destination";
+"destination.warningRecursiveNested" = "Warning: recursive search is enabled and the destination is inside the source. Existing destination files may be picked up as input.";
+
+"rules.title" = "Organization rules";
+"rules.recursive" = "Find files recursively";
+"rules.cameraFolder" = "Create camera-model folder";
+"rules.lensFolder" = "Create lens-model folder";
+"rules.renameByDate" = "Rename by metadata date";
+"rules.extensionCase" = "Extension";
+"rules.timezone" = "Time zone";
+"rules.timezoneOffset" = "Timezone offset: %d";
+"rules.mode" = "Mode";
+"rules.metadataParallelism" = "Metadata parallelism: %d";
+"rules.copyParallelism" = "Copy parallelism: %d";
+
+"extension.preserve" = "Preserve";
+"extension.lower" = "lower";
+"extension.upper" = "UPPER";
+
+"mode.copy" = "Copy";
+"mode.move" = "Move";

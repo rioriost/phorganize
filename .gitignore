@@ -1,0 +1,45 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+
+# Xcode user state and derived output
+DerivedData/
+.xcode-derived/
+*.xcuserstate
+xcuserdata/
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+
+# Swift Package Manager
+.build/
+.swiftpm/
+Package.resolved
+
+# Test and coverage output
+*.profraw
+*.profdata
+*.xccovreport
+*.xccovarchive
+
+# Build products and archives
+build/
+*.app
+*.dSYM
+*.xcarchive
+*.ipa
+*.pkg
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+
+# Local environment
+.env
+.env.*
+!.env.example
