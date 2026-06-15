@@ -83,6 +83,8 @@ Phorganize processes files locally. It does not use accounts, cloud services, an
 
 The app is sandboxed and uses user-selected read/write access plus app-scoped security-scoped bookmarks. Its privacy manifest declares local use of UserDefaults and file timestamp APIs for app functionality.
 
+See [PRIVACY.md](PRIVACY.md) for the full privacy policy.
+
 ## License
 
 MIT License. See [LICENSE](LICENSE).
